@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>chapter7</title>
+    <link rel="stylesheet" href="css/puzzle.css" type="text/css" />
+</head>
+
+<body>
+    <div id="background">
+        <h1 id="logotype">Webville Puzzles</h1>
+        <div id="letterbox">
+            <a href="#" class="tile t11"></a>        
+            <a href="#" class="tile t12"></a>        
+            <a href="#" class="tile t13"></a>        
+            <a href="#" class="tile t14"></a>
+
+            <a href="#" class="tile t21"></a>        
+            <a href="#" class="tile t22"></a>        
+            <a href="#" class="tile t23"></a>        
+            <a href="#" class="tile t24"></a>
+
+            <a href="#" class="tile t31"></a>        
+            <a href="#" class="tile t32"></a>        
+            <a href="#" class="tile t33"></a>        
+            <a href="#" class="tile t34"></a>
+
+            <a href="#" class="tile t41"></a>        
+            <a href="#" class="tile t42"></a>        
+            <a href="#" class="tile t43"></a>        
+            <a href="#" class="tile t44"></a>        
+        </div>
+
+        <div id="currentWord"></div>
+        <div id="submit"><a href="#">提交</a></div>
+
+        <div id="wordListBg">
+            <div id="wordList"></div>    
+        </div>
+
+        <div id="score">Score: 0</div>
+        <div id="tip">
+            <h4>游戏说明</h4>
+            <ul>
+                <li>1.刷新一次页面，左边字母表格更新一次。</li>
+                <li>2.点击左边字母，字母被添加到右边上方空白框，被点击的按钮禁止再点击</li>
+                <li>
+                    <h5>3.点击提交按钮后</h5>
+                    <ul>
+                        <li>1>上方空白框合法单词被添加到下方空白框</li>
+                        <li>2>上方空白框不合法单词消失</li>
+                        <li>3>左边字母表格更新</li>
+                        <li>4>计分更新(元音字母1分，其他2分)</li>                 
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+<script src="js/utils.js" type="text/javascript"></script> 
+<script src="js/7index.js" type="text/javascript"></script> 
+</body>
+</html>
