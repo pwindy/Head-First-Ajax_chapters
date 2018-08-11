@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!--当前页面的三要素-->
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link href="css/index_css.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <img src="images/logotypeLeft.png" alt="Rob's Rock 'n' Roll Memorabilia" 
+        width="394" height="91" id="logotypeLeft" />
+        <img src="images/logotypeRight.png" alt="Rob's Rock 'n' Roll Memorabilia" 
+        width="415" height="92" id="logotypeRight" />
+
+        <div id="introPane">
+            <p>
+                Are you looking for the perfect gift for the rock fan in your life? 
+                Maybe you want a guitar with some history behind it, or a conversation 
+                piece for your next big shindig. Look no further! Here you'll find all 
+                sorts of great memorabilia from the golden age of rock and roll.
+            </p>
+            <p><strong>Click on an image to the left for more details.</strong></p>
+        </div>
+
+        <div id="thumbnailPane">
+            <img src="images/itemGuitar.jpg" width="301" height="105" alt="guitar" 
+            title="itemGuitar" id="itemGuitar" />
+            <img src="images/itemShades.jpg" alt="sunglasses" width="301" height="88" 
+            title="itemShades" id="itemShades" />
+            <img src="images/itemCowbell.jpg" alt="cowbell" width="301" height="126" 
+            title="itemCowbell" id="itemCowbell" />
+            <img src="images/itemHat.jpg" alt="hat" width="300" height="152" 
+            title="itemHat" id="itemHat" />
+        </div>
+
+        <div id="detailsPane">
+            <img src="images/blank-detail.jpg" width="346" height="153" id="itemDetail" />
+            <div id="description"></div>
+        </div>
+    </div>
+    
+
+<!-- 解析JSON.parse() -->
+<script src="js/json2.js" type="text/javascript"></script>    
+<script src="js/getDetailsJSON.js" type="text/javascript"></script>    
+</body>
+</html>
